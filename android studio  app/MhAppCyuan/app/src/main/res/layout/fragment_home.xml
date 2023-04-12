@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.st.mhappcyuan.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--轮播图  start-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpager_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:background="#66000000"
+                    android:gravity="center"
+                    android:orientation="vertical">>
+
+                    <TextView
+                        android:id="@+id/text_viewpager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="文本"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+            </FrameLayout>
+            <!--轮播图  end-->
+         <com.st.mhappcyuan.MyGridView
+            android:id="@+id/gv_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3">
+        </com.st.mhappcyuan.MyGridView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>

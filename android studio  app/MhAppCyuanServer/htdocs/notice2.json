@@ -1,0 +1,44 @@
+﻿{
+  "data": [
+    {
+      "id": "1",
+      "image": "http://www.sicp.edu.cn/attachment/cms/item/2019_10/22_09/5215d379f307ad29.png",
+      "title": "我院心理中心举行2019级心理委员业务培训",
+      "date": "2019-10-22",
+      "url": "http://www.sicp.edu.cn/html/72/2019-10-22/content-3900.html"
+
+    },   
+    {
+      "id": "2",
+      "image": "http://www.sicp.edu.cn/attachment/cms/item/2019_09/26_16/ed73bf74fd65ecb9.png",
+      "title": "青春心向党 建功新时代",
+      "date": "2019-09-26",
+      "url": "http://www.sicp.edu.cn/html/72/2019-09-26/content-3814.html"
+
+    },   
+     {
+      "id": "3",
+      "image": "http://www.sicp.edu.cn/attachment/cms/item/2019_09/20_15/b51c1930852fc442.png",
+      "title": "机电工程系开展新生文明修身动员会",
+      "date": "2019-09-20",
+      "url": "http://www.sicp.edu.cn/html/72/2019-09-20/content-3804.html"
+
+    },   
+   {
+      "id": "4",
+      "image": "http://www.sicp.edu.cn/attachment/cms/item/2019_09/20_15/dfe89608b04e6bda.png",
+      "title": "后勤保卫处组织后勤重点部位人员新学期安全培训",
+      "date": "2019-09-20",
+      "url": "http://www.sicp.edu.cn/html/72/2019-09-20/content-3803.html"
+
+    },  
+   {
+      "id": "5",
+      "image": "http://www.sicp.edu.cn/attachment/cms/item/2019_09/11_09/f3e1afdc33107511.png",
+      "title": "辛勤工作多奉献 立德树人在行动",
+      "date": "2019-09-11",
+      "url": "http://www.sicp.edu.cn/html/72/2019-09-11/content-3796.html"
+
+    } 
+  ]
+}

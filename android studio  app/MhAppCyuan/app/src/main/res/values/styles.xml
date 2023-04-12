@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EditDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        //设置背景
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+        //是否半透明，为false时背景为黑色不透明
+        <item name="android:windowIsTranslucent">true</item>
+        //背景是否模糊显示，为false时效果为全透明
+        <item name="android:backgroundDimEnabled">true</item>
+
+    </style>
+
+</resources>
